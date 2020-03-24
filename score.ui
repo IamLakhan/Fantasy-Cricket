@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>244</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Your Team Score :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="finalscore">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>89</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
